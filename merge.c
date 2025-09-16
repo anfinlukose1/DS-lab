@@ -7,16 +7,16 @@ void main()
  void readarray(int[],int);
  void printarray(int[],int);
  void merge(int[],int[],int[],int,int);
- printf(" no of elements in 1st array[1-20]:");
+ printf(" no of elements in 1st array[1-20]:  ");
  scanf("%d",&m);
- printf("enter element in non decreasing order :");
+ printf("enter element in non decreasing order :  ");
  readarray(ar1,m);
- printf("no of elements in 2nd arry :");
+ printf("no of elements in 2nd arry :  ");
  scanf("%d",&n);
- printf("elements in non decreasing order :");
+ printf("elements in non decreasing order :  ");
  readarray(ar2,n);
  merge(ar1,ar2,ar3,m,n);
- printf("merge array :\n");
+ printf("merged array :  \n");
  printarray(ar3,m+n);
 }
 void readarray(int a[],int n)
