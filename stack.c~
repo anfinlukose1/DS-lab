@@ -65,7 +65,6 @@ do
       scanf("%d",&item);
       push(item);
       printf("\n insert %d \n",item);
-      
       break;
        case 2:item=pop(&status);
        if(status!=0)
